@@ -1,0 +1,40 @@
+{
+  "name": "inmobiliaria-airis",
+  "version": "1.0.0",
+  "description": "Desarrollo de prueba tecnica para el proyecto airis inmobiliaria con un backend en nodejs, express, jsonwebtoken y mysql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikoDuarte/airis-back.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "CRUD",
+    "BACKEND"
+  ],
+  "author": "NikoDuarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikoDuarte/airis-back/issues"
+  },
+  "homepage": "https://github.com/NikoDuarte/airis-back#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.16",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.9.1"
+  }
+}
